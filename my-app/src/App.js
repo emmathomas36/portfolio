@@ -4,20 +4,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className = "container bg-purple-200 rounded-xl shadow border p-8 m-10">
+        <h1 className = "text-5xl font-light">Emma Thomas Portfolio</h1>
+      </div>
+      
+      {/* <h2 className = "text-3xl font-bold">Projects</h2> */}
+
+      <div class="grid grid-flow-row grid-cols-2 grid-rows-3">
+        <div className = "container ">Project 1</div>
+        <div className = "container" >Project 2</div>
+        
+      </div>
+    
     </div>
   );
 }
