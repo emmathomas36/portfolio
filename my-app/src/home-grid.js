@@ -6,7 +6,7 @@ export const HomeGrid = () => {
                 <h1 className = "w-1/2 text-5xl text-left font-light">{personalInfo[0].name}</h1>
                 <div className = "w-1/2 text-right float-right">
                     <a className = "p-4" href = "">Resume</a>
-                    <a className = "p-4" href = "www.linkedin.com/in/emma-e-thomas">LinkedIn</a>
+                    <a className = "p-4" href = "https://www.linkedin.com/in/emma-e-thomas">LinkedIn</a>
                     </div>
                 <p className = "w-1/2 text-left">
                     {personalInfo[0].personalDescription}
