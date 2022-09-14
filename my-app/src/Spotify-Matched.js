@@ -10,7 +10,7 @@ function SpotifyMatched() {
                 <p className = "text-left w-3/4 py-4 mx-16">
                     {data.description}
                 </p>
-                <a href = "/" className = "w-3/4 p-2 mx-16 bg-gray-400 drop-shadow-md rounded-md">Home</a>
+                <a href = "/portfolio" className = "w-3/4 p-2 mx-16 bg-gray-400 drop-shadow-md rounded-md">Home</a>
           </div>
 
            <div className="mx-16 my-8 grid grid-cols-1 place-items-center">
