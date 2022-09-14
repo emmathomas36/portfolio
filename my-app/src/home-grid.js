@@ -22,14 +22,14 @@ function HomeGrid () {
             <div className="grid grid-cols-2 gap-10 mx-16 my-8">
                 {techProjectData.map((data, key) => {
                     return (
-                        <div key = {key} className = "container bg-gray-200 rounded h-80 shadow-lg">
-                            <h2 className = "text-2xl font-light p-4">{data.projectName}</h2>
-                            <div className = "flex content justify-center">
-                                <img src = { data.mainImage} className = "h-56 content-evenly"></img>
+                        <Link to = {data.link}>
+                            <div key = {key} className = "container h-96 bg-gray-200 rounded shadow-lg hover:bg-gray-400 duration-300">
+                                <h2 className = "text-2xl font-light p-4">{data.projectName}</h2>                                
+                                <div className = "flex content justify-center">
+                                    <img src = { data.mainImage} className = "h-64 content-evenly my-4"></img>
+                                </div>
                             </div>
-                            <a href = {data.link}>More</a>
-                            
-                        </div>
+                        </Link>
                     );
                 })}
             </div>

@@ -3,20 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import HomeGrid from './home-grid'
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import SpotifyMatched from './Spotify-Matched';
 import MyLife from './MyLife';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="spotifymatched" element={<SpotifyMatched />}></Route>
         <Route path="portfolio" element={<HomeGrid/>}></Route>
         <Route path="/" element={<HomeGrid/>}></Route>
         <Route path="mylife" element={<MyLife/>}></Route>
+        <Route path="" element={<></>}></Route>
       </Routes>
-    </Router>
+    </HashRouter>
 );
 
 
