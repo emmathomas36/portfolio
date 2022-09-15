@@ -6,6 +6,7 @@ import sMatch from './match-page.png'
 import sVideo from './final-presentation.mp4'
 
 // mylife
-import myLife from './mylife-cover.png'
+import myLifeCover from './mylife-cover.png'
+import oldMyLife from './oldMyLife.mp4'
 
-export {sFigma, sLogin, sDash, sMatch, sVideo, myLife}
+export {sFigma, sLogin, sDash, sMatch, sVideo, myLifeCover, oldMyLife}
