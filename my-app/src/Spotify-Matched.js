@@ -1,16 +1,15 @@
 import React from "react";
 import { spotifyMatched as data } from "./data";
-import { Player } from 'video-react'
 
 function SpotifyMatched() {
     return (
       <div>
          <div className = "content-center bg-gray-200 p-4">
-                <h1 className = "w-1/2 text-5xl text-left font-light mx-16">SpotifyMatched</h1>
-                <p className = "text-left w-3/4 py-4 mx-16">
+                <a href = "/portfolio" className = "float-right p-2 mx-4 bg-gray-400 drop-shadow-md rounded-md">Home</a>
+                <h1 className = "py-4 w-1/2 text-5xl text-left font-light mx-16">SpotifyMatched</h1>
+                <p className = "text-left w-3/4 mx-16 pb-4">
                     {data.description}
                 </p>
-                <a href = "/portfolio" className = "w-3/4 p-2 mx-16 bg-gray-400 drop-shadow-md rounded-md">Home</a>
           </div>
 
            <div className="mx-16 my-8 grid grid-cols-1 place-items-center">

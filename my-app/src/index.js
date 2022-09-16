@@ -6,16 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import SpotifyMatched from './Spotify-Matched';
 import MyLife from './MyLife';
+import ISchool from './iSchool';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
       <Routes>
         <Route path="spotifymatched" element={<SpotifyMatched />}></Route>
+        <Route path="ischool" element={<ISchool />}></Route>
         <Route path="portfolio" element={<HomeGrid/>}></Route>
         <Route path="/" element={<HomeGrid/>}></Route>
         <Route path="mylife" element={<MyLife/>}></Route>
-        <Route path="" element={<></>}></Route>
       </Routes>
     </HashRouter>
 );
