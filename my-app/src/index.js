@@ -7,6 +7,9 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import SpotifyMatched from './Spotify-Matched';
 import MyLife from './MyLife';
 import ISchool from './iSchool';
+import GraphicTranslation from './GraphicTranslation'
+import ArtGallery from './ArtGallery'
+import PlaylistCovers from './PlaylistCovers'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +20,9 @@ root.render(
         <Route path="portfolio" element={<HomeGrid/>}></Route>
         <Route path="/" element={<HomeGrid/>}></Route>
         <Route path="mylife" element={<MyLife/>}></Route>
+        <Route path="playlist" element={<PlaylistCovers/>}></Route>
+        <Route path="gallery" element={<ArtGallery/>}></Route>
+        <Route path="translation" element={<GraphicTranslation/>}></Route>
       </Routes>
     </HashRouter>
 );

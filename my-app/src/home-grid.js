@@ -1,4 +1,4 @@
-import { personalInfo, techProjectData } from "./data";
+import { personalInfo, techProjectData, designProjectData } from "./data";
 import resume from './updated-resume-pdf.pdf'
 import React from 'react';
 import { Link } from "react-router-dom";
@@ -19,6 +19,21 @@ function HomeGrid () {
             <h3 className = "text-3xl text-left font-bold mx-16 pt-8">Technical Projects</h3>
             <div className="grid grid-cols-3 gap-10 mx-16 my-8">
                 {techProjectData.map((data, key) => {
+                    return (
+                        <Link to = {data.link}>
+                            <div key = {key} className = "container h-96 bg-gray-200 rounded shadow-lg hover:bg-gray-400 duration-300">
+                                <h2 className = "text-2xl text-center font-light p-4">{data.projectName}</h2>                                
+                                <div className = "flex content justify-center">
+                                    <img src = { data.mainImage} className = "w-5/6 content-evenly my-4"></img>
+                                </div>
+                            </div>
+                        </Link>
+                    );
+                })}
+            </div>
+            <h3 className = "text-3xl text-left font-bold mx-16 pt-8">Art and Design Projects</h3>
+            <div className="grid grid-cols-3 gap-10 mx-16 my-8">
+                {designProjectData.map((data, key) => {
                     return (
                         <Link to = {data.link}>
                             <div key = {key} className = "container h-96 bg-gray-200 rounded shadow-lg hover:bg-gray-400 duration-300">

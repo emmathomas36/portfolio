@@ -3,7 +3,12 @@ import {
     sMatch, sVideo, myLifeCover,
     oldMyLife, oldFlow, newFlow,
     figmaSnap, hifiVideo, iSchoolCover,
-    iSchoolVideo
+    iSchoolVideo, playlistCover, playlistVideo,
+    translationCover, bike, cheer, covid, focus, 
+    fruit, gears, goggles, maggie, sportsmanship, stairs,
+    page1, page2, page3, page4, page5, page6, page7, page8,
+    page9, page10, page11, page12, page13, page14, page15, 
+    page16, page17, page18, page19, page20
 } from './images'
 
 export const personalInfo = [
@@ -14,12 +19,12 @@ export const personalInfo = [
                                 
     }
 ]
+
 export const techProjectData = [
     {
         projectName: "SpotifyMatched",
         mainImage: sDash,
-        description: "",
-        course: "",
+        description: "Hack-a-Thon intern project, completed at Vanguard",
         link: "spotifymatched"
     },
     {
@@ -36,14 +41,27 @@ export const techProjectData = [
         course: "",
         link: "ischool"
     },
-    // {
-    //     projectName: "Flutter Recipe App",
-    //     mainImage: "",
-    //     slideImages: [],
-    //     description: "",
-    //     course: "",
-    //     link: "recipe"
-    // },
+]
+
+export const designProjectData = [
+    {
+        projectName: 'Graphic Translation - Company Identity',
+        description: "",
+        mainImage: translationCover,
+        link: "translation"
+    },
+    {
+        projectName: "Simplified Playlist Covers",
+        description: "",
+        mainImage: playlistCover,
+        link: "playlist"
+    },
+    {
+        projectName: "Art Gallery",
+        description: "",
+        mainImage: "",
+        link: "gallery"
+    }
 ]
 
 export const spotifyMatched = {
@@ -55,7 +73,7 @@ export const spotifyMatched = {
     },
     figma: {
         image: sFigma,
-        description: "Here is a screenshot of the Figma mockups. The left two were out original mockups, prior to learning that we cannot directly access the users' top genres. The right mockups are our revised designs."
+        description: "Here is a screenshot of the Figma mockups. The left two were our original mockups, prior to learning that we cannot directly access the users' top genres. The right mockups are our revised designs."
     },
     dash: {
         image: sDash,
@@ -114,4 +132,63 @@ export const iSchool = {
     apiLink: "http://www.ist.rit.edu/api/",
     completed: "I was successfully able to consume all the required data, and I used three different sources for my plugins. I used the accordion, tabs, and modal dialogs from jQuery UI, and then the data table and navigation bar plug ins from separate sources.",
     issues: "I had some issues overriding the styling of jQuery UI, and if I had more time, I would have worked on customizing the theming and writing my own styles."
+}
+
+
+export const Gallery = {
+    description: "Throughout my time in high school, I took art every year, ending with AP Art and Design. My background in fine art is what made me want to go into a creative field, combining art and technology. My AP Portfolio concentration was centered around the life of student athletes.",
+    art: [
+        {
+            image: covid,
+            caption: "Shut Down - AP Portfolio Piece",
+            description: "Acrylic on collaged paper"
+        },
+        {
+            image: focus,
+            caption: "Focus - AP Portfolio Piece",
+            description: "Acrylic on collaged paper"
+        },
+        {
+            image: fruit,
+            caption: "Pre-game Snacks - AP Portfolio Piece",
+            description: "Acrylic with chalkboard paint and chalk"
+        },
+        {
+            image: cheer,
+            caption: "Victory - AP Portfolio Piece",
+            description: "Acrylic paint, pop art style"
+        },
+        {
+            image: gears,
+            caption: "Gears",
+            description: "Oil Pastel on black paper"
+        },
+        {
+            image: stairs,
+            caption: "Perspective Staircase",
+            description: "Observational drawing using colored pencil"
+        },
+        {
+            image: maggie,
+            caption: "Maggie",
+            description: "Chalk pastels on blue paper"
+        },{
+            image: sportsmanship,
+            caption: "Sportsmanship - AP Portfolio Piece",
+            description: "Acrylic paint"
+        },{
+            image: goggles,
+            caption: "Goggles",
+            description: "Acrylic paint on top of a swimming kickboard"
+        },
+    ]
+}
+
+export const translation = {
+    description: "Below is the slide deck that was composed for my graphic translation and logomark project. The slides will take you through the process of the translation, simplification, and then into the process of creating the logo and logomarks for a company. ",
+    slides: [
+        page1, page2, page3, page4, page5, page6, page7, page8,
+        page9, page10, page11, page12, page13, page14, page15, page16,
+        page17, page18, page19, page20
+    ]
 }
