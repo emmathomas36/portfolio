@@ -6,7 +6,7 @@ function SpotifyMatched() {
     return (
       <div>
          <div className = "content-center bg-gray-200 p-4">
-                <a href = "/portfolio" className = "float-right p-2 mx-4 bg-gray-400 drop-shadow-md rounded-md">Home</a>
+                <a href = "/portfolio" className = "float-right p-2 mx-4">Home</a>
                 <h1 className = "w-1/2 text-5xl text-left font-light mx-16 py-4">RIT MyLife Redesign</h1>
                 <p className = "text-left w-3/4 mx-16">
                     {data.description}
@@ -21,7 +21,7 @@ function SpotifyMatched() {
               <div className = "content-evenly">
                 <h3 className = "text-3xl text-left font-bold p-4">Design Problem Analysis</h3>
                 <p className = "px-4 w-full max-w-4xl">{data.planning.overview}</p>
-                <p className = "px-4 w-full max-w-4xl">For more information on the analysis, <a className = "underline" target = "_blank" href = {data.planning.link}>click here</a></p>
+                <p className = "px-4 w-full max-w-4xl">For more information on the analysis, visit the GitHub pages link.</p>
                 <video className = "p-4 w-full max-w-4xl" controls autoPlay>
                   <source src = {data.planning.currentPortal} type = "video/mp4"/>
                 </video>

@@ -32,7 +32,7 @@ function HomeGrid () {
                 })}
             </div>
             <h3 className = "text-3xl text-left font-bold mx-16 pt-8">Art and Design Projects</h3>
-            <div className="grid grid-cols-3 gap-10 mx-16 my-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-16 my-8">
                 {designProjectData.map((data, key) => {
                     return (
                         <Link to = {data.link}>

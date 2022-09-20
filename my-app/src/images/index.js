@@ -23,8 +23,17 @@ import iSchoolVideo from './iSchool.mp4'
 // Design
 
 // playlist
-import playlistCover from './playlistCover.png'
-import playlistVideo from './playlistVideo.mov'
+import playlistCover from './playlist/playlistCover.png'
+import playlistVideo from './playlist/playlistVideo.mov'
+import playlist1 from './playlist/playlist_Page_01.jpg'
+import playlist2 from './playlist/playlist_Page_02.jpg'
+import playlist3 from './playlist/playlist_Page_03.jpg'
+import playlist4 from './playlist/playlist_Page_04.jpg'
+import playlist5 from './playlist/playlist_Page_05.jpg'
+import playlist6 from './playlist/playlist_Page_06.jpg'
+import playlist8 from './playlist/playlist_Page_08.jpg'
+import playlist9 from './playlist/playlist_Page_09.jpg'
+import playlist10 from './playlist/playlist_Page_10.jpg'
 
 // translation
 import translationCover from './translationCover.png'
@@ -50,6 +59,7 @@ import page19 from './translation/Project_1_Emma_Page_19.jpg'
 import page20 from './translation/Project_1_Emma_Page_20.jpg'
 
 // gallery
+import galleryCover from './gallery/galleryCover.png'
 import bike from './gallery/bike.png'
 import cheer from './gallery/cheer.png'
 import covid from './gallery/covid.png'
@@ -68,8 +78,9 @@ export {sFigma, sLogin, sDash,
         iSchoolVideo}
 
 
-export {playlistCover, playlistVideo, translationCover,
+export {playlistCover, playlistVideo, translationCover, galleryCover, 
         bike, cheer, covid, focus, fruit, gears, goggles, maggie,
         sportsmanship, stairs, page1, page2, page3, page4, page5, page6,
         page7, page8, page9, page10, page11, page12, page13, page14, page15,
-        page16, page17, page18, page19, page20}
+        page16, page17, page18, page19, page20, playlist1, playlist2,
+        playlist3, playlist4, playlist5, playlist6, playlist8, playlist9, playlist10}

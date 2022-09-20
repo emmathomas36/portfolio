@@ -4,11 +4,13 @@ import {
     oldMyLife, oldFlow, newFlow,
     figmaSnap, hifiVideo, iSchoolCover,
     iSchoolVideo, playlistCover, playlistVideo,
-    translationCover, bike, cheer, covid, focus, 
+    translationCover, galleryCover, cheer, covid, focus, 
     fruit, gears, goggles, maggie, sportsmanship, stairs,
     page1, page2, page3, page4, page5, page6, page7, page8,
     page9, page10, page11, page12, page13, page14, page15, 
-    page16, page17, page18, page19, page20
+    page16, page17, page18, page19, page20, playlist1, playlist2,
+    playlist3, playlist4, playlist5, playlist6, playlist8, 
+    playlist9, playlist10
 } from './images'
 
 export const personalInfo = [
@@ -59,7 +61,7 @@ export const designProjectData = [
     {
         projectName: "Art Gallery",
         description: "",
-        mainImage: "",
+        mainImage: maggie,
         link: "gallery"
     }
 ]
@@ -191,4 +193,11 @@ export const translation = {
         page9, page10, page11, page12, page13, page14, page15, page16,
         page17, page18, page19, page20
     ]
+}
+
+
+export const playlistCovers = {
+    description: "This project was completed in my New Media Design Elements course. The goal was to create simple playlist covers in Figma, inspired by Apple music. I also added some animation to each cover, which can be seen in the video. I also created two fun covers, that did not have to follow the simple guidelines.",
+    slides: [playlist1, playlist2, playlist3, playlist4, playlist5, playlist6, playlist8, playlist9, playlist10],
+    video: playlistVideo
 }

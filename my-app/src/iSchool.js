@@ -5,7 +5,7 @@ function ISchool() {
     return (
       <div>
          <div className = "content-center bg-gray-200 p-4">
-                <a href = "/portfolio" className = "float-right p-2 mx-4 bg-gray-400 drop-shadow-md rounded-md">Home</a>
+                <a href = "/portfolio" className = "float-right p-2 mx-4">Home</a>
                 <h1 className = "py-4 w-1/2 text-5xl text-left font-light mx-16">iSchool Web App</h1>
                 <p className = "text-left w-3/4 mx-16 pb-4">
                     {data.description} <a href = {data.apiLink} target = "_blank" className = "underline">API Link</a>
