@@ -143,45 +143,45 @@ export const Gallery = {
     art: [
         {
             image: covid,
-            caption: "Shut Down - AP Portfolio Piece",
+            caption: "Shut Down - AP Portfolio Piece 03/20",
             description: "Acrylic on collaged paper"
         },
         {
             image: focus,
-            caption: "Focus - AP Portfolio Piece",
+            caption: "Focus - AP Portfolio Piece 01/20",
             description: "Acrylic on collaged paper"
         },
         {
             image: fruit,
-            caption: "Pre-game Snacks - AP Portfolio Piece",
+            caption: "Pre-game Snacks - AP Portfolio Piece 09/20",
             description: "Acrylic with chalkboard paint and chalk"
         },
         {
             image: cheer,
-            caption: "Victory - AP Portfolio Piece",
+            caption: "Victory - AP Portfolio Piece 02/20",
             description: "Acrylic paint, pop art style"
         },
         {
             image: gears,
-            caption: "Gears",
+            caption: "Gears 10/18",
             description: "Oil Pastel on black paper"
         },
         {
             image: stairs,
-            caption: "Perspective Staircase",
+            caption: "Perspective Staircase 11/18",
             description: "Observational drawing using colored pencil"
         },
         {
             image: maggie,
-            caption: "Maggie",
+            caption: "Maggie 04/18",
             description: "Chalk pastels on blue paper"
         },{
             image: sportsmanship,
-            caption: "Sportsmanship - AP Portfolio Piece",
+            caption: "Sportsmanship - AP Portfolio Piece 10/19",
             description: "Acrylic paint"
         },{
             image: goggles,
-            caption: "Goggles",
+            caption: "Goggles 11/17",
             description: "Acrylic paint on top of a swimming kickboard"
         },
     ]

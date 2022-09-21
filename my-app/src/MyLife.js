@@ -7,27 +7,27 @@ function SpotifyMatched() {
     return (
       <div>
          <div className = "content-center bg-gray-200 p-4">
-                <div className = "w-1/2 text-right float-right">
-                    <a href = "/portfolio" className = "p-4 ">Home</a>
+           <div className = "mx-4 lg:mx-16 ">
+                <div className = "w-1/2 text-right lg:float-right">
+                    <a href = "/portfolio">Home</a>
                     <a className = "p-4" target = "_blank" href = {resume}>Resume</a>
-                    <a className = "p-4" target = "_blank" href = "https://www.linkedin.com/in/emma-e-thomas">LinkedIn</a>
+                    <a target = "_blank" href = "https://www.linkedin.com/in/emma-e-thomas">LinkedIn</a>
                 </div>
-                <h1 className = "w-1/2 text-5xl text-left font-light mx-16 py-4">RIT MyLife Redesign</h1>
-                <p className = "text-left w-3/4 mx-16">
+                <h1 className = "py-4 lg:w-1/2 text-5xl text-left font-light">myLife Redesign</h1>
+                <p className = "text-left lg:w-3/4 pb-4">
                     {data.description}
                 </p>
-                <p className = "text-left w-3/4 py-4 mx-16">
-                  More details and information from this project can be found on this <a href = {data.link} target = "_blank" className = "underline">GitHub Pages link</a>
-                </p>
+
+           </div>
           </div>
 
-           <div className="mx-16 my-8 grid grid-cols-1 place-items-center">
+           <div className="mx-4 lg:mx-16 my-8 grid grid-cols-1 place-items-center">
             
               <div className = "content-evenly">
                 <h3 className = "text-3xl text-left font-bold p-4">Design Problem Analysis</h3>
                 <p className = "px-4 w-full max-w-4xl">{data.planning.overview}</p>
                 <p className = "px-4 w-full max-w-4xl">For more information on the analysis, visit the GitHub pages link.</p>
-                <video className = "p-4 w-full max-w-4xl" controls autoPlay>
+                <video className = "p-4 w-full max-w-4xl" controls >
                   <source src = {data.planning.currentPortal} type = "video/mp4"/>
                 </video>
                 <h5 className = "text-xl text-left font-bold p-4">Design Problem</h5>
@@ -58,7 +58,7 @@ function SpotifyMatched() {
               <div>
                 <h3 className = "text-3xl text-left font-bold p-4">High Fidelity Prototype</h3>
                 <p className = "px-4 w-full max-w-4xl">{data.hifi.description}<a href = {data.hifi.link} target = "_blank" className = "underline" >here</a></p>
-                <video className = "p-4 w-full max-w-4xl" controls autoPlay>
+                <video className = "p-4 w-full max-w-4xl" controls>
                   <source src = {data.hifi.video} type = "video/mp4"/>
                 </video>
               </div>
