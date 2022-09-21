@@ -1,12 +1,17 @@
 import React from "react";
 import { myLife as data } from "./data";
-import { Player } from 'video-react'
+import resume from './updated-resume-pdf.pdf'
 
 function SpotifyMatched() {
+  window.scrollTo(0, 0);
     return (
       <div>
          <div className = "content-center bg-gray-200 p-4">
-                <a href = "/portfolio" className = "float-right p-2 mx-4">Home</a>
+                <div className = "w-1/2 text-right float-right">
+                    <a href = "/portfolio" className = "p-4 ">Home</a>
+                    <a className = "p-4" target = "_blank" href = {resume}>Resume</a>
+                    <a className = "p-4" target = "_blank" href = "https://www.linkedin.com/in/emma-e-thomas">LinkedIn</a>
+                </div>
                 <h1 className = "w-1/2 text-5xl text-left font-light mx-16 py-4">RIT MyLife Redesign</h1>
                 <p className = "text-left w-3/4 mx-16">
                     {data.description}

@@ -30,13 +30,6 @@ export const techProjectData = [
         link: "spotifymatched"
     },
     {
-        projectName: "RIT myLife Redesign",
-        mainImage: myLifeCover,
-        description: "",
-        course: "",
-        link: "mylife"
-    },
-    {
         projectName: "iSchool Web App",
         mainImage: iSchoolCover,
         description: "",
@@ -46,6 +39,13 @@ export const techProjectData = [
 ]
 
 export const designProjectData = [
+    {
+        projectName: "RIT myLife Redesign",
+        mainImage: myLifeCover,
+        description: "",
+        course: "",
+        link: "mylife"
+    },
     {
         projectName: 'Graphic Translation - Company Identity',
         description: "",
@@ -63,7 +63,8 @@ export const designProjectData = [
         description: "",
         mainImage: maggie,
         link: "gallery"
-    }
+    },
+
 ]
 
 export const spotifyMatched = {
