@@ -6,7 +6,7 @@ function SpotifyMatched() {
   window.scrollTo(0, 0);
     return (
       <div>
-         <div className = "content-center bg-gray-200 p-4">
+         <div className = "content-center bg-emerald-500 text-white p-4">
            <div className = "mx-4 lg:mx-16 ">
                 <div className = "w-1/2 text-right lg:float-right">
                     <a href = "/portfolio">Home</a>

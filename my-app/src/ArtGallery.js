@@ -14,7 +14,7 @@ function ArtGallery() {
   window.scrollTo(0, 0);
     return (
       <div>
-        <div className = "content-center bg-gray-200 p-4">
+        <div className = "content-center bg-emerald-500 text-white p-4">
            <div className = "mx-4 lg:mx-16 ">
                 <div className = "w-1/2 text-right lg:float-right">
                     <a href = "/portfolio">Home</a>
@@ -28,10 +28,10 @@ function ArtGallery() {
               </div>
           </div>
 
-          <div className = "grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mx-4 lg:mx-24 my-8">
+          <div className = "grid grid-cols-1 lg:grid-cols-2  mx-4 lg:mx-32 my-8 ">
             {data.art.map((art, key) => {
               return (
-                <div className = "container h-116 bg-gray-200 rounded shadow-lg align-middle p-8" key = {key}>
+                <div className = "container h-116 align-middle p-8" key = {key}>
                   <div className = "flex content justify-center ">
                     <img className = "w-3/4 h-3/4 content-evenly" src = {art.image}></img>
                   </div>

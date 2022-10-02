@@ -26,14 +26,16 @@ export const techProjectData = [
     {
         projectName: "SpotifyMatched",
         mainImage: sDash,
-        description: "Hack-a-Thon intern project, completed at Vanguard",
-        link: "spotifymatched"
+        description: "Hack-a-Thon style project, completed at Vanguard on a team of 8 interns. I worked primarily on the frontend, and on the connection to the backend.",
+        link: "spotifymatched",
+        course: "Completed during Vanguard internship"
+
     },
     {
         projectName: "iSchool Web App",
         mainImage: iSchoolCover,
-        description: "",
-        course: "",
+        description: "A jQuery project to remake the RIT School of Information website, using their extensive API.",
+        course: "Completed in Client Programming course",
         link: "ischool"
     },
 ]
@@ -42,26 +44,29 @@ export const designProjectData = [
     {
         projectName: "RIT myLife Redesign",
         mainImage: myLifeCover,
-        description: "",
-        course: "",
+        description: "Group project done to identify a design problem, and then go through the iterative process to propose a design solution in Figma.",
+        course: "Completed in Prototyping and Usability Testing course",
         link: "mylife"
     },
     {
         projectName: 'Graphic Translation - Company Identity',
-        description: "",
+        description: "Create a graphic translation of an object, then continue simplification to create a logo and company identity based on that object.",
+        course: "Completed in New Media Design Survey II course",
         mainImage: translationCover,
         link: "translation"
     },
     {
         projectName: "Simplified Playlist Covers",
-        description: "",
+        description: "Create playlist covers using simple shapes and lines with simple animations, inspired by Apple Music.",
+        course: "Completed in New Media Design Elements II course",
         mainImage: playlistCover,
         link: "playlist"
     },
     {
         projectName: "Art Gallery",
-        description: "",
-        mainImage: cheer,
+        description: "Various art projects that I have completed throughout high school, and in AP Art and Design. ",
+        course: "Completed in numerous high school courses",
+        mainImage: maggie,
         link: "gallery"
     },
 
