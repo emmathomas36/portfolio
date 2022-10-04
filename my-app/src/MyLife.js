@@ -1,6 +1,7 @@
 import React from "react";
 import { myLife as data } from "./data";
 import resume from './updated-resume-pdf.pdf'
+import { Link } from "react-router-dom";
 
 function SpotifyMatched() {
   window.scrollTo(0, 0);
@@ -26,7 +27,7 @@ function SpotifyMatched() {
               <div className = "content-evenly">
                 <h3 className = "text-3xl text-left font-bold p-4">Design Problem Analysis</h3>
                 <p className = "px-4 w-full max-w-4xl">{data.planning.overview}</p>
-                <p className = "px-4 w-full max-w-4xl">For more information on the analysis, visit the <a className = "underline" src = {data.link}>GitHub pages link.</a></p>
+                <p className = "px-4 w-full max-w-4xl">For more information on the analysis, visit the <a href ="https://emmathomas36.github.io/iste264group7/" className = 'underline' target = '_blank'>GitHub pages link.</a></p>
                 <video className = "p-4 w-full max-w-4xl" controls >
                   <source src = {data.planning.currentPortal} type = "video/mp4"/>
                 </video>
