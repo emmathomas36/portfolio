@@ -19,11 +19,12 @@ function HomeGrid () {
                     </p>
                 </div>
             </div>
-            <h3 className = "text-3xl text-left font-display  mx-4 lg:mx-16 pt-16">Technical Projects</h3>
+            <h3 className = "text-3xl text-left font-bold  mx-4 lg:mx-16 pt-16">Technical Projects</h3>
             <div className="grid grid-cols-1 lg:grid-cols-2  mx-4 lg:mx-16 my-8">
                 {techProjectData.map((data, key) => {
                     return (
-                            <div className = "p-4 w-5/6 container" key = {key}>
+                        <Link to = {data.link} className = "w-5/6 container bg-white-200 hover:bg-emerald-400 duration-300">
+                            <div className = "p-4" key = {key}>
                                                                
                                 <div className = "py-4">
                                     <img className = "" src = { data.mainImage} ></img>
@@ -31,18 +32,20 @@ function HomeGrid () {
                                 <h2 className = "text-2xl font-bold ">{data.projectName}</h2> 
                                 <p className = "" >{data.description}</p>
                                 <p className = "font-bold">{data.course}</p> 
-                                <Link to = {data.link}> <p className = "container bg-emerald-500 rounded px-2 my-2 text-white w-fit">More Information</p></Link>
+                                {/* <Link to = {data.link}> <p className = "container bg-emerald-500 rounded px-2 my-2 text-white w-fit">More Information</p></Link> */}
                                 
                             </div>
+                            </Link>
                     );
                 })}
             </div>
 
-            <h3 className = "text-3xl text-left font-display mx-4 lg:mx-16 pt-8">Art and Design Projects</h3>
+            <h3 className = "text-3xl text-left font-bold mx-4 lg:mx-16 pt-8">Art and Design Projects</h3>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-4 lg:mx-16 my-8">
                 {designProjectData.map((data, key) => {
                     return (
-                        <div className = "p-4 w-5/6 container " key = {key}>
+                        <Link to = {data.link} className = "w-5/6 container bg-white-200 hover:bg-emerald-400 duration-300">
+                        <div className = "p-4 " key = {key}>
                                                            
                             <div className = "py-4">
                                 <img src = { data.mainImage} ></img>
@@ -50,10 +53,11 @@ function HomeGrid () {
                             <h2 className = "text-2xl font-bold ">{data.projectName}</h2> 
                             <p className = "" >{data.description}</p>
                             <p className = "font-bold">{data.course}</p>
-                            <Link to = {data.link}> <p className = "container bg-emerald-500 rounded px-2 my-2 text-white w-fit">More Information</p></Link>
+                            {/* <Link to = {data.link}> <p className = "container bg-emerald-500 rounded px-2 my-2 text-white w-fit">More Information</p></Link> */}
                             
                             
                         </div>
+                    </Link>
                     );
                 })}
             </div>
