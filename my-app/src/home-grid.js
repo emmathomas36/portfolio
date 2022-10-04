@@ -42,8 +42,7 @@ function HomeGrid () {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-4 lg:mx-16 my-8">
                 {designProjectData.map((data, key) => {
                     return (
-                        <Link to = {data.link} className = "w-5/6 container bg-white-200 ">
-                        <div className = "p-4" key = {key}>
+                        <div className = "p-4 w-5/6 container " key = {key}>
                                                            
                             <div className = "py-4">
                                 <img src = { data.mainImage} ></img>
@@ -55,7 +54,6 @@ function HomeGrid () {
                             
                             
                         </div>
-                    </Link>
                     );
                 })}
             </div>
