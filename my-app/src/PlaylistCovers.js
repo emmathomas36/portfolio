@@ -22,7 +22,7 @@ function PlaylistCovers() {
                     <a className = "p-4" target = "_blank" href = {resume}>Resume</a>
                     <a target = "_blank" href = "https://www.linkedin.com/in/emma-e-thomas">LinkedIn</a>
                 </div>
-                <h1 className = "py-4 lg:w-1/2 text-5xl text-left font-light">Playlist Covers</h1>
+                <h1 className = "py-4 lg:w-1/2 text-5xl text-left font-display">Playlist Covers</h1>
                 <p className = "text-left lg:w-3/4 pb-4">
                     {data.description}
                 </p>

@@ -66,7 +66,7 @@ export const designProjectData = [
         projectName: "Art Gallery",
         description: "Various art projects that I have completed throughout high school, and in AP Art and Design. ",
         course: "Completed in numerous high school courses",
-        mainImage: maggie,
+        mainImage: galleryCover,
         link: "gallery"
     },
 
