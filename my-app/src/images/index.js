@@ -22,6 +22,15 @@ import iSchoolVideo from './iSchool.mp4'
 
 // Design
 
+// Phoenix
+import interactiveVideo from './phoenix/final-interactive.mp4'
+import finalPoster from './phoenix/final-poster.png'
+import finalSketch from './phoenix/final-sketch.png'
+import iterations from './phoenix/iterations.png'
+import progress from './phoenix/progress-posters.png'
+import roughSketch from './phoenix/rough-sketches.png'
+import phoenixCover from './phoenix/phoenixCover.png'
+
 // playlist
 import playlistCover from './playlist/playlistCover.png'
 import playlistVideo from './playlist/playlistVideo.mov'
@@ -75,7 +84,8 @@ export {sFigma, sLogin, sDash,
         sMatch, sVideo, myLifeCover, 
         oldMyLife, oldFlow, newFlow, 
         figmaSnap, hifiVideo, iSchoolCover, 
-        iSchoolVideo}
+        iSchoolVideo, interactiveVideo, finalPoster, finalSketch,
+        iterations, progress, roughSketch, phoenixCover}
 
 
 export {playlistCover, playlistVideo, translationCover, galleryCover, 

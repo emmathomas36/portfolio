@@ -10,7 +10,8 @@ import {
     page9, page10, page11, page12, page13, page14, page15, 
     page16, page17, page18, page19, page20, playlist1, playlist2,
     playlist3, playlist4, playlist5, playlist6, playlist8, 
-    playlist9, playlist10
+    playlist9, playlist10, interactiveVideo, finalPoster, finalSketch,
+    iterations, progress, roughSketch, phoenixCover
 } from './images'
 
 export const personalInfo = [
@@ -42,11 +43,18 @@ export const techProjectData = [
 
 export const designProjectData = [
     {
+        projectName: "Space Mission Interactive Poster",
+        mainImage: phoenixCover,
+        description: "Two part project to design an infographic about the Phoenix Mars Lander and make it interactive .",
+        course: "Completed in New Media Design Elements II",
+        link: "phoenix"
+    },
+    {
         projectName: "RIT myLife Redesign",
         mainImage: myLifeCover,
         description: "Group project done to identify a design problem, and then go through the iterative process to propose a design solution in Figma.",
-        course: "Completed in Prototyping and Usability Testing course",
-        link: "mylife"
+        course: "Completed in Prototyping and Usability Testing",
+        link: "myLife"
     },
     {
         projectName: 'Graphic Translation - Company Identity',
@@ -62,13 +70,13 @@ export const designProjectData = [
         mainImage: playlistCover,
         link: "playlist"
     },
-    {
-        projectName: "Art Gallery",
-        description: "Various art projects that I have completed throughout high school, and in AP Art and Design. ",
-        course: "Completed in numerous high school courses",
-        mainImage: galleryCover,
-        link: "gallery"
-    },
+    // {
+    //     projectName: "Art Gallery",
+    //     description: "Various art projects that I have completed throughout high school, and in AP Art and Design. ",
+    //     course: "Completed in numerous high school courses",
+    //     mainImage: galleryCover,
+    //     link: "gallery"
+    // },
 
 ]
 
@@ -140,6 +148,29 @@ export const iSchool = {
     apiLink: "http://www.ist.rit.edu/api/",
     completed: "I was successfully able to consume all the required data, and I referenced three different plug-in sources. I used the accordion, tabs, and modal dialogs from jQuery UI, and then the data table and navigation bar plug-ins from separate sources.",
     issues: "I had some issues overriding the styling of jQuery UI, and if I had more time, I would have worked on customizing the theming and writing my own styles."
+}
+
+export const Phoenix = {
+    description: "This project was broken up into two parts, the poster and the interactive poster. The project was focused on the design principles, typography, and layout, as well as the use of the interactive principles.",
+    figmaLink: "https://www.figma.com/proto/7TCK9mrVUnK0dG9D3Cnrha/Space-Poster?page-id=89%3A3&node-id=330%3A1309&viewport=305%2C-859%2C0.18&scaling=scale-down&starting-point-node-id=330%3A1309",
+    sketches: {
+        description: "The first part of this project was to research a specific space event and collect as much information as possible. I decided to research the Phoenix Mars Lander. Based on this research, I completed three 5 minute rough sketches, focusing on the vehicle, timeline, or distance, respectively. After this, I developed my final sketch based on the rough sketches.",
+        roughSketch: roughSketch,
+        finalSketch: finalSketch
+    },
+    progress: {
+        description: "Between the two different iterations of the poster, I had about 12 different versions showing my progress. Below is a snapshot of four different progress posters.",
+        progress: progress
+    },
+    finalPoster: {
+        description: "Here are the two final iterations of the poster. I had initially created the poster that contains the images, and then for my second iteration I wanted to challenge myself by creating a poster with a completely different approach. The second poster uses a serif font, as opposed to a sans serif, and is made entirely of vector graphics.",
+        finalPoster: finalPoster
+    },
+    interactive: {
+        description: "After finishing the infographic, the second part of the project was to make it interactive. The interaction was used to help convey information using interactive principles such as progressive disclosure, affordances, and intuitiveness. All interaction was completed on Figma, and the file can be accessed ",
+        interactiveVideo: interactiveVideo
+    }
+
 }
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { spotifyMatched as data } from "./data";
-import resume from './updated-resume-pdf.pdf'
+import resume from './resume-1-08.pdf'
 
 function SpotifyMatched() {
   window.scrollTo(0, 0);

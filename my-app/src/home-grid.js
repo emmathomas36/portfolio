@@ -1,5 +1,5 @@
 import { personalInfo, techProjectData, designProjectData } from "./data";
-import resume from './updated-resume-pdf.pdf'
+import resume from './resume-1-08.pdf'
 import React from 'react';
 import { Link } from "react-router-dom";
 

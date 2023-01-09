@@ -5,6 +5,7 @@ import HomeGrid from './home-grid'
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import SpotifyMatched from './Spotify-Matched';
+import Phoenix from './Phoenix'
 import MyLife from './MyLife';
 import ISchool from './iSchool';
 import GraphicTranslation from './GraphicTranslation'
@@ -23,6 +24,7 @@ root.render(
         <Route path="playlist" element={<PlaylistCovers/>}></Route>
         <Route path="gallery" element={<ArtGallery/>}></Route>
         <Route path="translation" element={<GraphicTranslation/>}></Route>
+        <Route path="phoenix" element={<Phoenix/>}></Route>
       </Routes>
     </HashRouter>
 );

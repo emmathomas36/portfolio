@@ -1,9 +1,9 @@
 import React from "react";
 import { myLife as data } from "./data";
-import resume from './updated-resume-pdf.pdf'
+import resume from './resume-1-08.pdf'
 import { Link } from "react-router-dom";
 
-function SpotifyMatched() {
+function MyLife() {
   window.scrollTo(0, 0);
     return (
       <div>
@@ -80,4 +80,4 @@ function SpotifyMatched() {
     );
   }
   
-  export default SpotifyMatched;
+  export default MyLife;
