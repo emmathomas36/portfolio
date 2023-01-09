@@ -45,7 +45,7 @@ export const designProjectData = [
     {
         projectName: "Space Mission Interactive Poster",
         mainImage: phoenixCover,
-        description: "Two part project to design an infographic about the Phoenix Mars Lander and make it interactive .",
+        description: "Two part project to design an infographic in Figma about the Phoenix Mars Lander and make it interactive.",
         course: "Completed in New Media Design Elements II, Fall 2022",
         link: "phoenix"
     },
