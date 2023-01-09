@@ -29,14 +29,14 @@ export const techProjectData = [
         mainImage: sDash,
         description: "Hack-a-Thon style project, completed at Vanguard on a team of 8 interns. I worked primarily on the frontend, and on the connection to the backend.",
         link: "spotifymatched",
-        course: "Completed during Vanguard internship"
+        course: "Completed during Vanguard internship, Summer 2022"
 
     },
     {
         projectName: "iSchool Web App",
         mainImage: iSchoolCover,
         description: "A jQuery project to remake the RIT School of Information website, using their extensive API.",
-        course: "Completed in Client Programming course",
+        course: "Completed in Client Programming, Spring 2022",
         link: "ischool"
     },
 ]
@@ -46,27 +46,27 @@ export const designProjectData = [
         projectName: "Space Mission Interactive Poster",
         mainImage: phoenixCover,
         description: "Two part project to design an infographic about the Phoenix Mars Lander and make it interactive .",
-        course: "Completed in New Media Design Elements II",
+        course: "Completed in New Media Design Elements II, Fall 2022",
         link: "phoenix"
     },
     {
         projectName: "RIT myLife Redesign",
         mainImage: myLifeCover,
         description: "Group project done to identify a design problem, and then go through the iterative process to propose a design solution in Figma.",
-        course: "Completed in Prototyping and Usability Testing",
+        course: "Completed in Prototyping and Usability Testing, Spring 2022",
         link: "myLife"
     },
     {
         projectName: 'Graphic Translation - Company Identity',
         description: "Create a graphic translation of an object, then continue simplification to create a logo and company identity based on that object.",
-        course: "Completed in New Media Design Survey II course",
+        course: "Completed in New Media Design Survey II course, Fall 2021",
         mainImage: translationCover,
         link: "translation"
     },
     {
         projectName: "Simplified Playlist Covers",
         description: "Create playlist covers using simple shapes and lines with simple animations, inspired by Apple Music.",
-        course: "Completed in New Media Design Elements II course",
+        course: "Completed in New Media Design Elements II course, Fall 2022",
         mainImage: playlistCover,
         link: "playlist"
     },
