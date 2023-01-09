@@ -1,6 +1,6 @@
 import { playlistCovers as data } from "./data";
 import { Swiper, SwiperSlide } from "swiper/react"
-import resume from './resume-1-08.pdf'
+import resume from './emma-thomas-resume.pdf'
 
 
 // Import Swiper styles

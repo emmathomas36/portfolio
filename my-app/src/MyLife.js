@@ -1,6 +1,6 @@
 import React from "react";
 import { myLife as data } from "./data";
-import resume from './resume-1-08.pdf'
+import resume from './emma-thomas-resume.pdf'
 import { Link } from "react-router-dom";
 
 function MyLife() {
