@@ -17,7 +17,7 @@ import {
 export const personalInfo = [
     {
         name: "Emma Thomas",
-        personalDescription: "I am a third year student athlete at Rochester Institute of Technology majoring in Human-Centered Computing with a minor in Web Development. " +
+        personalDescription: "I am a third year student athlete at Rochester Institute of Technology majoring in Human-Centered Computing with a minor in Economics." +
                             "Within my major, I am concentrating on front-end development and UX/UI design."
                                 
     }

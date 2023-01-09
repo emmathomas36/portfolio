@@ -20,8 +20,8 @@ function HomeGrid () {
                 </div>
             </div>
 
-            <h3 className = "text-3xl text-left font-bold mx-4 lg:mx-16 pt-8">Art and Design Projects</h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-4 lg:mx-16 my-8">
+            <h3 className = "text-4xl text-left font-bold mx-4 lg:mx-16 pt-8 px-4">Art and Design Projects</h3>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-4 mx-4 lg:mx-16">
                 {designProjectData.map((data, key) => {
                     return (
                         <Link to = {data.link} className = "w-5/6 container bg-white-200 hover:bg-emerald-400 duration-300">
@@ -42,8 +42,8 @@ function HomeGrid () {
                 })}
             </div>
 
-            <h3 className = "text-3xl text-left font-bold  mx-4 lg:mx-16">Technical Projects</h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2  mx-4 lg:mx-16 my-8">
+            <h3 className = "text-4xl text-left font-bold mx-4 lg:mx-16 pt-16 px-4">Technical Projects</h3>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-4 mx-4 lg:mx-16">
                 {techProjectData.map((data, key) => {
                     return (
                         <Link to = {data.link} className = "w-5/6 container bg-white-200 hover:bg-emerald-400 duration-300">
